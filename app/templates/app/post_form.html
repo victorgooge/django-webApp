@@ -1,0 +1,12 @@
+<head>
+    <title>Create</title>
+</head>
+
+<div style="dipslay: flex; flex-wrap:wrap; width:300px;">
+    <h1>Create</h1>
+    <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Create">
+    </form>
+</div>
